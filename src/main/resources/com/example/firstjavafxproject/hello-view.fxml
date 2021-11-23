@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstjavafxproject.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" textAlignment="CENTER" />
+    <Button onAction="#onHelloButtonClick" text="Hello!" textFill="#0c23d1" />
+   <AnchorPane id="kalua" prefHeight="93.0" prefWidth="106.0">
+      <children>
+         <TextFlow accessibleText="Welcome to JavaFX" layoutX="22.0" layoutY="21.0" lineSpacing="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="52.0" prefWidth="62.0" textAlignment="CENTER" />
+      </children></AnchorPane>
+</VBox>
