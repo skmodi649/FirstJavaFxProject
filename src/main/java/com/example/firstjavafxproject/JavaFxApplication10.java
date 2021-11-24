@@ -6,7 +6,6 @@ import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -14,6 +13,8 @@ public class JavaFxApplication10 extends Application {
     Label l1;
 
     public static void main(String[] args){
+        System.out.println("Name : Suraj Kumar");
+        System.out.println("Registration Number : 20BCE2835");
         launch(args);
     }
 
