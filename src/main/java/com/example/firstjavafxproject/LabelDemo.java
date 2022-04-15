@@ -25,25 +25,25 @@ public class LabelDemo extends Application {
     }
     @Override
     public void start(Stage stage) throws Exception {
-        Label nameLabel = new Label("jklasdf ");
+        Label nameLabel = new Label("adsfasfdasdf");
         nameLabel.setTextFill(javafx.scene.paint.Color.BLACK);
         nameLabel.setFont(javafx.scene.text.Font.font("TimesRoman", javafx.scene.text.FontWeight.BOLD, 20));
         nameLabel.setStyle("-fx-border-color: yellow;");
         nameLabel.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, Insets.EMPTY)));
 
-        Label idLabel = new Label("asdfsdf ");
+        Label idLabel = new Label("adsfsdfsdfsdf ");
         idLabel.setTextFill(javafx.scene.paint.Color.BLUE);
         idLabel.setFont(javafx.scene.text.Font.font("TimesRoman", javafx.scene.text.FontWeight.BOLD, 20));
         idLabel.setStyle("-fx-border-color: yellow;");
         idLabel.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, Insets.EMPTY)));
 
-        Label addressLabel = new Label("asdasdf ");
+        Label addressLabel = new Label("asdfasdfsadf");
         addressLabel.setTextFill(javafx.scene.paint.Color.CYAN);
         addressLabel.setFont(javafx.scene.text.Font.font("TimesRoman", javafx.scene.text.FontWeight.BOLD, 20));
         addressLabel.setStyle("-fx-border-color: yellow;");
         addressLabel.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, Insets.EMPTY)));
 
-        Label phoneLabel = new Label("0123456712 ");
+        Label phoneLabel = new Label("adfasdfasdf");
         phoneLabel.setTextFill(javafx.scene.paint.Color.GREEN);
         phoneLabel.setFont(javafx.scene.text.Font.font("TimesRoman", javafx.scene.text.FontWeight.BOLD, 20));
         phoneLabel.setStyle("-fx-border-color: yellow;");
